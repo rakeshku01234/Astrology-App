@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Insights</title>
+    <link rel="stylesheet" href="astro.css">
+</head>
+<body>
+    <div class="container">
+        <form id="astroForm">
+        <h2>Astrology Insights</h2>
+        <p>Enter your birth details to discover your zodiac sign!</p>
+        <input type="text" id="name" placeholder="Enter your first name" required>
+        <input type="text" id="surname" placeholder="Enter your surname" required>
+        <input type="number" id="birthdate" placeholder="Enter your birth date" required>
+        <input type="number" id="birthmonth" placeholder="Enter your birth month" required>
+        <input type="number" id="birthyear" placeholder="Enter your birth year" required>
+        <button onclick="getZodiacSign()">Get Insights  for you</button>
+        <div class="result" id="result"></div>
+        </form>
+        </class>
+    </div>
+      <script src="astro.js"></script>
+    
+</body>
+</html>
